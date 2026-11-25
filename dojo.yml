@@ -3,7 +3,6 @@ name: UVAS Cyber Study Group
 type: hidden
 password: cyber2.0@123
 modules:
-modules:
   - id: hello
     import:
       dojo: linux-luminarium
