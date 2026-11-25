@@ -4,22 +4,66 @@ type: hidden
 password: cyber2.0@123
 
 modules:
-  - id: builtins
+  - id: hello
     import:
       dojo: linux-luminarium
-      module: builtins
-  - id: chaining
+      module: hello
+  - id: paths
     import:
       dojo: linux-luminarium
-      module: chaining
+      module: paths
   - id: commands
     import:
       dojo: linux-luminarium
       module: commands
+  - id: man
+    import:
+      dojo: linux-luminarium
+      module: man
+  - id: globbing
+    import:
+      dojo: linux-luminarium
+      module: globbing
+  - id: piping
+    import:
+      dojo: linux-luminarium
+      module: piping
+  - id: variables
+    import:
+      dojo: linux-luminarium
+      module: variables
   - id: data
     import:
       dojo: linux-luminarium
       module: data
+  - id: processes
+    import:
+      dojo: linux-luminarium
+      module: processes
+  - id: users
+    import:
+      dojo: linux-luminarium
+      module: users
+  - id: permissions
+    import:
+      dojo: linux-luminarium
+      module: permissions
+  - id: chaining
+    import:
+      dojo: linux-luminarium
+      module: chaining
+  - id: terminal-multiplexing
+    import:
+      dojo: linux-luminarium
+      module: terminal-multiplexing
+  - id: path
+    import:
+      dojo: linux-luminarium
+      module: path
+  - id: shenanigans
+    import:
+      dojo: linux-luminarium
+      module: shenanigans
   - id: destruction
     import:
       dojo: linux-luminarium
@@ -28,78 +72,50 @@ modules:
     import:
       dojo: linux-luminarium
       module: further-learning
-  - id: globbing
-    import:
-      dojo: linux-luminarium
-      module: globbing
-  - id: hello
-    import:
-      dojo: linux-luminarium
-      module: hello
-  - id: man
-    import:
-      dojo: linux-luminarium
-      module: man
-  - id: path
-    import:
-      dojo: linux-luminarium
-      module: path
-  - id: paths
-    import:
-      dojo: linux-luminarium
-      module: paths
-  - id: permissions
-    import:
-      dojo: linux-luminarium
-      module: permissions
-  - id: piping
-    import:
-      dojo: linux-luminarium
-      module: piping
-  - id: processes
-    import:
-      dojo: linux-luminarium
-      module: processes
-  - id: shenanigans
-    import:
-      dojo: linux-luminarium
-      module: shenanigans
-  - id: terminal-multiplexing
-    import:
-      dojo: linux-luminarium
-      module: terminal-multiplexing
-  - id: users
-    import:
-      dojo: linux-luminarium
-      module: users
-  - id: variables
-    import:
-      dojo: linux-luminarium
-      module: variables
   - id: c101-your-first-program
     import:
       dojo: computing-101
       module: your-first-program
-  - id: c101-introspecting
-    import:
-      dojo: computing-101
-      module: introspecting
   - id: c101-memory
     import:
       dojo: computing-101
       module: memory
-  - id: c101-advanced-memory
+  - id: c101-the-stack
     import:
       dojo: computing-101
-      module: advanced-memory
+      module: the-stack
+  - id: c101-nibbling-on-numbers
+    import:
+      dojo: computing-101
+      module: nibbling-on-numbers
+  - id: c101-introspecting
+    import:
+      dojo: computing-101
+      module: introspecting
   - id: c101-hello-hackers
     import:
       dojo: computing-101
       module: hello-hackers
-  - id: c101-assembly-crash-course
+  - id: c101-control-flow
     import:
       dojo: computing-101
-      module: assembly-crash-course
+      module: control-flow
+  - id: c101-endian-escapades
+    import:
+      dojo: computing-101
+      module: endian-escapades
+  - id: c101-assembly-assortment
+    import:
+      dojo: computing-101
+      module: assembly-assortment
+  - id: c101-the-stack-revisited
+    import:
+      dojo: computing-101
+      module: the-stack-revisited
+  - id: c101-numbers-as-strings
+    import:
+      dojo: computing-101
+      module: numbers-as-strings
   - id: c101-debugging-refresher
     import:
       dojo: computing-101
