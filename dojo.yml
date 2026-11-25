@@ -3,6 +3,68 @@ name: UVAS Cyber Study Group
 type: hidden
 password: cyber2.0@123
 modules:
-  - id: linux
+modules:
+  - id: hello
     import:
       dojo: linux-luminarium
+      module: hello
+  - id: paths
+    import:
+      dojo: linux-luminarium
+      module: paths
+  - id: commands
+    import:
+      dojo: linux-luminarium
+      module: commands
+  - id: digesting
+    import:
+      dojo: linux-luminarium
+      module: digesting
+  - id: manuals
+    import:
+      dojo: linux-luminarium
+      module: manuals
+  - id: globbing
+    import:
+      dojo: linux-luminarium
+      module: globbing
+  - id: redirection
+    import:
+      dojo: linux-luminarium
+      module: redirection
+  - id: permissions
+    import:
+      dojo: linux-luminarium
+      module: permissions
+  - id: processes
+    import:
+      dojo: linux-luminarium
+      module: processes
+  - id: variables
+    import:
+      dojo: linux-luminarium
+      module: variables
+  - id: data
+    import:
+      dojo: linux-luminarium
+      module: data
+  - id: chaining
+    import:
+      dojo: linux-luminarium
+      module: chaining
+  - id: untangling
+    import:
+      dojo: linux-luminarium
+      module: untangling
+  - id: users
+    import:
+      dojo: linux-luminarium
+      module: users
+  - id: ssh
+    import:
+      dojo: linux-luminarium
+      module: ssh
+  - id: scripting
+    import:
+      dojo: linux-luminarium
+      module: scripting
