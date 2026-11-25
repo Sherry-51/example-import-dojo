@@ -1,29 +1,8 @@
-id: example-import
-
-name: Example Import Dojo
-
-type: example
-
+id: uvas-cyber-crew
+name: UVAS Cyber Study Group
+type: hidden
+password: cyber2.0@123
 modules:
-
-  - import:
-      dojo: example
-      module: hello
-
-  - id: planet
-    name: Planet
-    description: A couple planets.
-
-    challenges:
-
-      - import:
-          dojo: example
-          module: world
-          challenge: earth
-
-      - import:
-          dojo: example
-          module: world
-          challenge: mars
-        name: Martian Planet
-        description: This is a martian planet... mars.
+  - id: linux
+    import:
+      dojo: linux-luminarium
