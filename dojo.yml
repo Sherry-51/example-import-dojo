@@ -2,68 +2,109 @@ id: uvas-cyber-crew
 name: UVAS Cyber Study Group
 type: hidden
 password: cyber2.0@123
+
 modules:
-  - id: hello
+  - id: builtins
     import:
       dojo: linux-luminarium
-      module: hello
-  - id: paths
-    import:
-      dojo: linux-luminarium
-      module: paths
-  - id: commands
-    import:
-      dojo: linux-luminarium
-      module: commands
-  - id: digesting
-    import:
-      dojo: linux-luminarium
-      module: digesting
-  - id: manuals
-    import:
-      dojo: linux-luminarium
-      module: manuals
-  - id: globbing
-    import:
-      dojo: linux-luminarium
-      module: globbing
-  - id: redirection
-    import:
-      dojo: linux-luminarium
-      module: redirection
-  - id: permissions
-    import:
-      dojo: linux-luminarium
-      module: permissions
-  - id: processes
-    import:
-      dojo: linux-luminarium
-      module: processes
-  - id: variables
-    import:
-      dojo: linux-luminarium
-      module: variables
-  - id: data
-    import:
-      dojo: linux-luminarium
-      module: data
+      module: builtins
   - id: chaining
     import:
       dojo: linux-luminarium
       module: chaining
-  - id: untangling
+  - id: commands
     import:
       dojo: linux-luminarium
-      module: untangling
+      module: commands
+  - id: data
+    import:
+      dojo: linux-luminarium
+      module: data
+  - id: destruction
+    import:
+      dojo: linux-luminarium
+      module: destruction
+  - id: further-learning
+    import:
+      dojo: linux-luminarium
+      module: further-learning
+  - id: globbing
+    import:
+      dojo: linux-luminarium
+      module: globbing
+  - id: hello
+    import:
+      dojo: linux-luminarium
+      module: hello
+  - id: man
+    import:
+      dojo: linux-luminarium
+      module: man
+  - id: path
+    import:
+      dojo: linux-luminarium
+      module: path
+  - id: paths
+    import:
+      dojo: linux-luminarium
+      module: paths
+  - id: permissions
+    import:
+      dojo: linux-luminarium
+      module: permissions
+  - id: piping
+    import:
+      dojo: linux-luminarium
+      module: piping
+  - id: processes
+    import:
+      dojo: linux-luminarium
+      module: processes
+  - id: shenanigans
+    import:
+      dojo: linux-luminarium
+      module: shenanigans
+  - id: terminal-multiplexing
+    import:
+      dojo: linux-luminarium
+      module: terminal-multiplexing
   - id: users
     import:
       dojo: linux-luminarium
       module: users
-  - id: ssh
+  - id: variables
     import:
       dojo: linux-luminarium
-      module: ssh
-  - id: scripting
+      module: variables
+  - id: c101-your-first-program
     import:
-      dojo: linux-luminarium
-      module: scripting
+      dojo: computing-101
+      module: your-first-program
+  - id: c101-introspecting
+    import:
+      dojo: computing-101
+      module: introspecting
+  - id: c101-memory
+    import:
+      dojo: computing-101
+      module: memory
+  - id: c101-advanced-memory
+    import:
+      dojo: computing-101
+      module: advanced-memory
+  - id: c101-hello-hackers
+    import:
+      dojo: computing-101
+      module: hello-hackers
+  - id: c101-assembly-crash-course
+    import:
+      dojo: computing-101
+      module: assembly-crash-course
+  - id: c101-debugging-refresher
+    import:
+      dojo: computing-101
+      module: debugging-refresher
+  - id: c101-building-a-web-server
+    import:
+      dojo: computing-101
+      module: building-a-web-server
