@@ -8,5 +8,5 @@ jobs:
     steps:
       - uses: pwncollege/dojo-update@v1
         with:
-          dojo: example-import
+          dojo: uvas-cyber-crew~546095c8
           update_code: ${{ secrets.UPDATE_CODE }}
